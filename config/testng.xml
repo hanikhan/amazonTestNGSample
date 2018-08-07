@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonTests" thread-count="4" parallel="tests">
+    <test name="SearchAndWishList">
+        <parameter name="config" value="conf.json"/>
+        <parameter name="base_url" value="https://www.amazon.com/"/>
+        <classes>
+            <class name="com.tests.Tests.testCase"/>
+        </classes>
+    </test>
+</suite>
