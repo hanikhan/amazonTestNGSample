@@ -1,5 +1,5 @@
 # Amazon Sample Tests
- - Uses Page Objet Model and TESTNG
+ - Uses Page Objet Model and TestNG
 
 ## Pre-requisites
 Add Amazon login details to environment variables
